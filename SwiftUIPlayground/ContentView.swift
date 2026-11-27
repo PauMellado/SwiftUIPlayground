@@ -7,18 +7,23 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct PerfilView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Paulina Mellado").font(.title).fontWeight(.bold)
+            Text("Ingeniero de Software. con expecialidad en desarollo Mobiele iOS")
+            Button ("Editar Perfil"){
+                
+            
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    PerfilView()
 }
